@@ -30,7 +30,7 @@ st.divider()
 
 # sidebar
 st.sidebar.header('Key Assumptions')
-wage = st.sidebar.number_input('Wage per hour', min_value=0, max_value=1000, value=20)
+wage = st.sidebar.number_input('Wage per hour', min_value=1, max_value=1000, value=20)
 tips = st.sidebar.number_input('Tips',min_value=0, max_value=1000, value=0)
 st.sidebar.space(100)
 empid = st.sidebar.text_input('Employee Name', value='Bob')
