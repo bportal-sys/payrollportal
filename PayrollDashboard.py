@@ -15,7 +15,7 @@ if 'ts' not in st.session_state:
 
 ts = st.session_state.ts
 
-st.header(st.__version__)
+
 # main body
 st.title(':dollar: Payroll Calculator')
 st.header('Calculate your payroll expense and/or your take home pay')
